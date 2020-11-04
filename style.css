@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    background: #F4F4F4;
+    color: #F4F4F4;
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+    text-align: center;
+    background-image: url("images/background.jpg");
+    position: relative;
+    padding: 20px;
+
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #F4F4F4;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+p{
+  margin: 30px;
+}
+
+.background_filter_opacity {
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+.content_page {
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-flex;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+}
+
+.img_circle{
+  border-radius: 5%;
+}
+
+@media (max-width: 960px) {
+  .background_filter_opacity {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .background_filter_opacity {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .background_filter_opacity  {
+    width: 100px;
+  }
+}
